@@ -1,6 +1,16 @@
 # Java Web开发环境搭建之windows
 >JavaWeb的入门级开发环境为IDE+Tomcat+MySQL，IDE的选择上，常见的选择为Eclipse、Myeclipse或IDEA。
 
+[点我下载所需文件](http://pan.baidu.com/s/1sllgPbf)（也可以根据教程自行下载文件）
+
+eclipse-jee-neon-2-win32-x86_64.zip *---Eclipse*
+
+mysql-installer-web-community-5.7.17.0.msi*---Mysql安装器，需联网使用*
+
+jdk-8u111-windows-x64.exe *---JDK*
+
+apache-tomcat-8.5.9-windows-x64.zip *---Tomcat*
+
 
 
 ## 一、jdk环境配置
@@ -28,7 +38,7 @@ Path：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;  **注意分号**
 
 先到[Tomcat官网](http://tomcat.apache.org)下载Tomcat
 ![](http://oj8v2br1f.bkt.clouddn.com/4.jpg)
-解压下载的apache-tomcat-8.5.9-windows-x64.zip
+解压下载的apache-tomcat-8.5.9-windows-x64.zip 到任意目录
 ## 二、Mysql数据库
 下载mysql安装器mysql-installer-web-community-5.7.17.0.msi
 1、默认
