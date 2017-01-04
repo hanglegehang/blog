@@ -44,9 +44,38 @@ Path：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;  **注意分号**
 6、mysql管理界面
 ![](http://oj8v2br1f.bkt.clouddn.com/10.png)
 
-## 二、Eclipse
-1、下载elipse，打开后新建一个Dynamic Web Project 
-2、
+## 二、Eclipse配置（JDK，Tomcat）
+### （一）配置jdk
+1、找到Windows--Preferences--Java--Installed JREs,点击add
+![](http://oj8v2br1f.bkt.clouddn.com/13.png)
+2、如图
+![](http://oj8v2br1f.bkt.clouddn.com/14.png)
+3、点击Directory,选择jdk路径
+![](http://oj8v2br1f.bkt.clouddn.com/15.png)
+4、配置结果
+![](http://oj8v2br1f.bkt.clouddn.com/16.png)
+### （二）配置tomcat
+1、Windows--Preferences--Server--Runtime Environment
+![](http://oj8v2br1f.bkt.clouddn.com/17.png)
+2、Browse 选择Tomcat路径，JRE选择jdk
+![](http://oj8v2br1f.bkt.clouddn.com/18.png)
+### （三）页面测试
+1、新建一个Dynamic Web Project，点next
+![](http://oj8v2br1f.bkt.clouddn.com/19.png)
+2、别忘记点这个
+![](http://oj8v2br1f.bkt.clouddn.com/20.png)
+3、新建项目的目录
+![](http://oj8v2br1f.bkt.clouddn.com/21.png)
+4、在WebContent下新建一个Jsp文件
+![](http://oj8v2br1f.bkt.clouddn.com/22.png)
+5、内容如图
+![](http://oj8v2br1f.bkt.clouddn.com/24.png)
+6、右键index.jsp，点击run as -->run on server
+![](http://oj8v2br1f.bkt.clouddn.com/23.png)
+7、如果出现如图结果成功
+![](http://oj8v2br1f.bkt.clouddn.com/26.png)
+
+
 
 
 
